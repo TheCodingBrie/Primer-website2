@@ -2,122 +2,121 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
-  iframe {
-    display: inline-block;
-    margin-right: auto;
-    width: 100%;
-    height: 120%;
-  }
-  
-  a:link {
-    color: black;
-    text-decoration: none;
-    border-radius: 50%;
-    background-color: lightblue;
-  }
-  
-  a:hover {
-    color: blue;
-  }
-  
-  a:visited {
-    color: black;
-  }
-  
-  h1 {
-    font-size: 2em;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    display: inline-block;
-    background-color: lightblue;
-  }
-  
-  section {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  p {
-    text-align: justify;
-  }
-  
-  .postTitle {
-    text-align: start;
-  }
-  
-  .blogpost {
-    padding: 20px 30px 12px 10px;
-    border: solid black 3px;
-    margin-bottom: 10px;
-  }
-  
-  .blogpost img {
-    border: solid black 2px;
-    height: 186px;
-    width: 250px;
-    margin-right: 10px;
-    padding: 0px;
-    float: left;
-  }
-  
-  .blogpost img:hover {
-    border: solid blue 2px;
-  }
-  
-  .logo {
-    justify-self: center;
-    align-self: center;
-    grid-area: logo;
-  }
-  .advert {
-    margin-top: 8px;
-    justify-self: center;
-    grid-area: advert;
-  }
-  
-  .header {
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr;
-    grid-area: header;
-  }
-  
-  .navbar {
-    font-size: 30px;
-  }
-  
-  .navbar a {
-    margin-left: 0px;
-    margin-right: 20px;
-  }
-  
-  .content {
-    text-align: center;
-    display: flex;
-    grid-area: content;
-  }
-  
-  #app {
-    display: grid;
-    font-size: 40px;
-    width: 100%;
-    grid-gap: 2px;
-    grid-template-columns: 230px 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-      "logo header header header"
-      "advert content content content"
-      "advert content content content"
-      "advert content content content"
-      "advert content content content";
-  }
-  
-  #HeadTitle {
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-variant: small-caps;
-    align-self: center;
-  }
-  
+iframe {
+  display: inline-block;
+  margin-right: auto;
+  width: 100%;
+  height: 120%;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: lightblue;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue !important;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  display: inline-block;
+  background-color: lightblue;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.postTitle {
+  text-align: start;
+}
+
+.blogpost {
+  padding: 20px 30px 12px 10px;
+  border: solid black 3px;
+  margin-bottom: 10px;
+}
+
+.blogpost img {
+  border: solid black 2px;
+  height: 186px;
+  width: 250px;
+  margin-right: 10px;
+  padding: 0px;
+  float: left;
+}
+
+.blogpost img:hover {
+  border: solid blue 2px;
+}
+
+.logo {
+  justify-self: center;
+  align-self: center;
+  grid-area: logo;
+}
+.advert {
+  margin-top: 8px;
+  justify-self: center;
+  grid-area: advert;
+}
+
+.header {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-area: header;
+}
+
+.navbar {
+  font-size: 30px;
+}
+
+.navbar a {
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  grid-area: content;
+}
+
+#app {
+  display: grid;
+  font-size: 40px;
+  width: 100%;
+  grid-gap: 2px;
+  grid-template-columns: 230px 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "logo header header header"
+    "advert content content content"
+    "advert content content content"
+    "advert content content content"
+    "advert content content content";
+}
+
+#HeadTitle {
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+  align-self: center;
+}
