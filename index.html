@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+  <head>
+    <title>World Citizen Blog</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Guillaume Belanger Brie" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta
+      name="description"
+      content="WBS Coding School Final Exercise Primer"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="The website logo" />
+      </div>
+      <div class="advert">
+        <a href="#">
+          <img src="images/side-advert.gif" alt="Advertisement placement" />
+        </a>
+      </div>
+      <header class="header">
+        <div id="HeadTitle">The World Citizen Blog</div>
+        <nav class="navbar">
+          <a href="food.html" target="targetframe">World Food</a>
+          <a href="travels.html" target="targetframe">World Travels</a>
+          <a href="wonders.html" target="targetframe">World Wonders</a>
+          <a href="cultures.html" target="targetframe">World Cultures</a>
+        </nav>
+      </header>
+      <main class="content">
+        <iframe
+          id="frame"
+          src="food.html"
+          name="targetframe"
+          loading="eager"
+          frameborder="0"
+          >Browser not compatible with iframe</iframe
+        >
+      </main>
+    </div>
+  </body>
 </html>
