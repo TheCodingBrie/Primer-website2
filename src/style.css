@@ -16,7 +16,7 @@ body {
     background-color: lightblue;
   }
   
-  a:visited:hover {
+  a:hover {
     color: blue;
   }
   
